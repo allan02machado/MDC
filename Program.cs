@@ -21,10 +21,10 @@ namespace MDC
                 Console.ResetColor();
                 Console.WriteLine();
 
-                Console.Write("1o Valor(A): ");
+                Console.Write("1o Valor(A)= ");
                 n1Val = int.TryParse(Console.ReadLine(), out n1);
 
-                Console.Write("2o Valor(B): ");
+                Console.Write("2o Valor(B)= ");
                 n2Val = int.TryParse(Console.ReadLine(), out n2);
 
                 if(n1 > n2)
